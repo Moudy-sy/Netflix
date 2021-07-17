@@ -97,7 +97,6 @@ header {
 
 .main-nav {
   grid-area: mn;
-  margin-left: -100px;
   margin-top: 5px;
   color: lightgray;
 }
