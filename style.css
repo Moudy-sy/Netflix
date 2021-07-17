@@ -18,7 +18,9 @@ html, body {
 }
 
 .crown {
-  width: 100%;
+  height: 100%;
+  margin-top: -135px;
+  margin-bottom: -120px;
 }
 img {
   max-width: 100%;
@@ -47,6 +49,7 @@ header {
   width: 100%;
   margin-bottom: 0px;  
   height: 48px;
+  box-shadow: 20, 0, 0, 0;
 }
 .scrolling-active{
     background-color: #141414;
@@ -97,8 +100,10 @@ header {
 
 .main-nav {
   grid-area: mn;
+  float: left;
   margin-top: 5px;
   color: lightgray;
+  margin-left: -50px;
 }
 
 .main-nav a {
@@ -117,7 +122,7 @@ header {
 
 .sub-nav {
   grid-area: sb;
-  padding: 0 40px 0 40px;
+  padding: 0 50px 0 40px;
 }
 
 .sub-nav a {
